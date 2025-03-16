@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year 2025 Greeting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Welcome to the New Year 2025 Greeting 🎉</h1>
+        <p>Wishing you a wonderful year ahead filled with happiness and success!</p>
+        <h2 class="highlight">✨ ARPITA ✨</h2>
+
+        <button onclick="showGreeting()">🎊 Show New Year Greeting 🎊</button>
+        <button onclick="showInspiration()">🌟 Show Inspiration 🌟</button>
+        <button onclick="showJokes()">😂 Show Friendship Jokes 😂</button>
+    </div>
+
+    <!-- Greeting Modal -->
+    <div id="greetingModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('greetingModal')">&times;</span>
+            <div class="images">
+                <img src="friend1.jpg" alt="Friend 1">
+                <img src="friend2.jpg" alt="Friend 2">
+                <img src="friend3.jpg" alt="Friend 3">
+                <img src="friend4.jpg" alt="Friend 4">
+            </div>
+            <p>🎆 Happy New Year 2025 🎆</p>
+            <p>
+                Dear Arpita,<br><br>
+                I just wanted to take a moment to say thank you. Though we’ve known each other for only a short time since August,
+                you’ve already become someone very special to me... <br><br>
+                💖 Stay blessed and keep smiling! 😊
+            </p>
+        </div>
+    </div>
+
+    <!-- Inspiration Modal -->
+    <div id="inspirationModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('inspirationModal')">&times;</span>
+            <p>🌟 “Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.” 🌟</p>
+            <p>Keep shining, ✨ ARPITA! ✨ Your future is as bright as your smile.</p>
+        </div>
+    </div>
+
+    <!-- Jokes Modal -->
+    <div id="jokesModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('jokesModal')">&times;</span>
+            <p>😂 Friendship & New Year Jokes 😂</p>
+            <p>1. New Year's Eve is like a good friend... both show up just when you need them most! 🎉</p>
+            <p>2. A good friend is like a New Year’s resolution: they may be hard to keep sometimes, but they make life a lot more fun! 😂</p>
+            <p>3. Cheers to the friends who make the journey through the year more memorable! 🥂</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
